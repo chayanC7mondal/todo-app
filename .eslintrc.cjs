@@ -7,6 +7,8 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:jest-dom/recommended',
+    'plugin:testing-library/react',
     'prettier',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
